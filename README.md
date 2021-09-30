@@ -53,7 +53,7 @@ Let's suppose you wanted to just get the name of Department A, you would add a "
 
 ## Updating Values
 ### How do you add values to the fluff.
-- you add values to full by calling the **set** method, passing in the path and value.
+- you add values to fluff by calling the **set** method, passing in the path and value.
 ```javascript
 // some parameters not included for the sudo code
 fluff.set("{company}.{department_a}.{team_a2}.name", "Team A1");
@@ -73,7 +73,7 @@ fluff.set("{company}.{department_a}.{team_a2}.name", "Team A1");
 
 ### Adding a new value
 
-- currently our data saved in full can be represented by the following table.
+- currently our data saved in fluff can be represented by the following table.
 
 |  Id | Name| 
 |-- | --|
